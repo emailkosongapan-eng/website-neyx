@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NEYX PANEL — Login</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="auth-page">
+  <div class="bg-grid"></div>
+  <main class="auth-wrap">
+    <section class="auth-card">
+      <div class="logo">NEYX<span>PANEL</span></div>
+      <div class="eyebrow">SECURE CONTROL PANEL</div>
+      <h1>Selamat Datang</h1>
+      <p class="muted">Masuk untuk mengelola user dan authorization bot.</p>
+      <div id="alert"></div>
+      <form id="loginForm">
+        <label>Username<input id="username" autocomplete="username" required></label>
+        <label>Password<input id="password" type="password" autocomplete="current-password" required></label>
+        <button class="btn primary wide" type="submit">Masuk ke Panel</button>
+      </form>
+      <div class="footer-note">© 2026 NEYX PANEL</div>
+    </section>
+  </main>
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+  <script>initLogin();</script>
+</body>
+</html>
